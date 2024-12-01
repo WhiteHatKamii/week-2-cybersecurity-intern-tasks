@@ -54,6 +54,16 @@ After running the simulated attacks, we viewed the Snort logs to verify detectio
 cat /var/log/snort/alert
 ```
 
+### **Screeshots**
+
+![snort install](https://github.com/user-attachments/assets/7756f4ae-7489-4d5d-bc32-1caf71dfff72)
+
+![config](https://github.com/user-attachments/assets/6a39a5ca-cd76-4e56-82b3-ca5655008c26)
+
+![dns-file](https://github.com/user-attachments/assets/aa2eee12-4e82-4ce0-be4e-a253343d7ae2)
+
+![Screenshot-of-Snort-as-it-is-running](https://github.com/user-attachments/assets/92976731-59e4-4a50-9383-967b4d591e1e)
+
 ---
 
 ## Task 2: Two-Factor Authentication (2FA) Implementation
@@ -81,6 +91,16 @@ auth required pam_google_authenticator.so
 ### **2.3 Test 2FA**
 Once 2FA was configured, we logged out and then attempted to log back in, verifying that the second authentication factor (Google Authenticator) was required.
 
+### **Screeshots**
+
+![2fa1 ss](https://github.com/user-attachments/assets/cd67a1b1-f938-4b4c-ac60-902d9c915659)
+
+![2fa2](https://github.com/user-attachments/assets/64851da5-5da8-4964-9be3-7c47d5bd9fc8)
+
+![2fa3](https://github.com/user-attachments/assets/27e1fa8f-aee5-413b-83ae-8b2199003ec2)
+
+![2faPam1](https://github.com/user-attachments/assets/95d77eef-7405-4552-842c-d5e8efe1893e)
+
 ---
 
 ## Task 3: Vulnerability Scanning (Nessus)
@@ -99,6 +119,23 @@ Once Nessus was installed, we launched the Nessus web interface on `https://loca
 
 ### **3.3 Analyze Results**
 After the scan completed, we analyzed the vulnerabilities identified by Nessus, documenting at least three of them along with their potential impact and mitigation strategies.
+
+### **Screeshots**
+
+![ness1](https://github.com/user-attachments/assets/03fbda1f-4bfc-44f3-b0ec-12882e052487)
+
+![ness2](https://github.com/user-attachments/assets/ebb572cc-eb50-4c3f-ae32-8677aaa0df29)
+
+![Screenshot_2024-11-29_20_42_52](https://github.com/user-attachments/assets/02a87329-cef9-4bb7-81e0-583ba4ddf8e1)
+
+![vuln1](https://github.com/user-attachments/assets/9fd03243-a2c5-4ad6-9d05-ee5ee7eee871)
+
+![vuln01](https://github.com/user-attachments/assets/4a4e8aa6-7c38-4b34-a8a4-5829de3bd730)
+
+![vuln2](https://github.com/user-attachments/assets/6012dfa9-68a5-4ac6-a987-017b6508640c)
+
+![vuln3](https://github.com/user-attachments/assets/adf153a2-752c-45ec-8448-41145a335636)
+
 
 ---
 
